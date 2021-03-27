@@ -8,6 +8,18 @@ const routes: Array<RouteRecordRaw> = [
     component: Home,
   },
   {
+    path: "/components-demo",
+    name: "ComponentsDemo",
+    component: () => import("@/views/components-demo/index.vue"),
+    children: [
+      {
+        path: "/components-demo/button-demo",
+        name: "ButtonDemo",
+        component: () => import("@/views/button/index.vue"),
+      },
+    ],
+  },
+  {
     path: "/about",
     name: "About",
     // route level code-splitting

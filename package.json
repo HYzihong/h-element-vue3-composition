@@ -1,5 +1,8 @@
 {
   "name": "h-element-vue3-composition",
+  "description": "A Study Component Library for Vue3.0 Composition Api",
+  "repository": "git@github.com:HYzihong/h-element-vue3-composition.git",
+  "license": "MIT",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +11,7 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "commit": "git-cz"
+    "commit": "git add -A && npx git-cz"
   },
   "dependencies": {
     "core-js": "^3.6.5",
