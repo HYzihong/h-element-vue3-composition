@@ -1,10 +1,7 @@
 import HButton from "./button";
+import HButtonGroup from "./button-group";
 import type { App } from "vue";
-const components = [HButton];
-// const app = Vue.createApp();
-// components.forEach((component) => {
-//   app.component(component.name, component);
-// });
+const components = [HButton, HButtonGroup];
 
 const install = (app: App): void => {
   components.forEach((component) => {
